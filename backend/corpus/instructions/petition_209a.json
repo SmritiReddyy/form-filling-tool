@@ -1,0 +1,90 @@
+{
+  "form_id": "petition_209a",
+  "form_name": "Petition Pursuant to G.L. c. 209A § 11 — Domesticated Animals",
+  "fields": [
+    {
+      "name": "division",
+      "label": "Court Division",
+      "type": "text",
+      "required": true,
+      "instructions": "Enter the name of the court division where the case is filed, for example: Boston Municipal Court, District Court, Juvenile Court, Probate and Family Court, or Superior Court."
+    },
+    {
+      "name": "docket_number",
+      "label": "Docket Number",
+      "type": "text",
+      "required": true,
+      "instructions": "Enter the docket number assigned to your case. This is a unique identifier given by the court when the case was first filed. Format is typically a year followed by letters and numbers."
+    },
+    {
+      "name": "plaintiff_name",
+      "label": "Plaintiff Name",
+      "type": "text",
+      "required": true,
+      "instructions": "Enter the full legal name of the plaintiff — the person who filed the original case."
+    },
+    {
+      "name": "defendant_name",
+      "label": "Defendant Name",
+      "type": "text",
+      "required": true,
+      "instructions": "Enter the full legal name of the defendant — the person the original case was filed against."
+    },
+    {
+      "name": "petitioner_name",
+      "label": "Petitioner Name",
+      "type": "text",
+      "required": true,
+      "instructions": "Enter your full legal name. The petitioner is the person filing this petition — this may be the plaintiff or the defendant in the original case."
+    },
+    {
+      "name": "animal_description",
+      "label": "Description of Domesticated Animals",
+      "type": "text",
+      "required": true,
+      "instructions": "List each animal separately. For each animal include: the animal's name, species or breed, color or markings, and who currently owns or possesses it — petitioner, respondent, or a minor child."
+    },
+    {
+      "name": "respondent_restrictions",
+      "label": "Respondent Name for Restrictions",
+      "type": "text",
+      "required": false,
+      "instructions": "If you are asking the court to order the respondent to stay away from the animals, enter the respondent's full name here."
+    },
+    {
+      "name": "animals_from_respondent",
+      "label": "Animals to be Restricted from Respondent",
+      "type": "text",
+      "required": false,
+      "instructions": "List the animals you want the respondent to be ordered not to abuse, take, or interfere with."
+    },
+    {
+      "name": "petitioner_custody_name",
+      "label": "Petitioner Name for Custody Request",
+      "type": "text",
+      "required": false,
+      "instructions": "If you are asking the court to give you possession and care of the animals, enter your name here."
+    },
+    {
+      "name": "animals_for_custody",
+      "label": "Animals Requested for Custody",
+      "type": "text",
+      "required": false,
+      "instructions": "List the animals you are asking the court to place in your care and control."
+    },
+    {
+      "name": "support_statement",
+      "label": "Statement in Support",
+      "type": "text",
+      "required": true,
+      "instructions": "Describe in your own words why you are filing this petition. Explain the situation with the animals and why you need the court's protection. Be specific about any threats, abuse, or interference that has occurred or that you fear may occur."
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "date",
+      "required": true,
+      "instructions": "Enter today's date in month/day/year format."
+    }
+  ]
+}
