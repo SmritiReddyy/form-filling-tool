@@ -2,20 +2,19 @@
 ## Instructions 
 
 Backend (one time):
- 
- 
-powershell
-Plain Text
+
 cd backendpython -m venv venvvenv\Scripts\activatepip install -r requirements.txt
+
 This recreates the venv from requirements.txt.
+
 Frontend (one time):
  
- 
-powershell
-Plain Text
 cd frontendpnpm install
+
 This recreates node_modules from package.json.
+
 Then they create their .env file with their own Gemini API key and run normally.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
