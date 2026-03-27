@@ -3,13 +3,13 @@
 
 Backend (one time):
 
-cd backendpython -m venv venvvenv\Scripts\activatepip install -r requirements.txt
+# cd backendpython -m venv venvvenv\Scripts\activatepip install -r requirements.txt
 
 This recreates the venv from requirements.txt.
 
 Frontend (one time):
  
-cd frontendpnpm install
+# cd frontendpnpm install
 
 This recreates node_modules from package.json.
 
